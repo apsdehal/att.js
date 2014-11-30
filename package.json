@@ -1,0 +1,29 @@
+{
+  "name": "att.js",
+  "version": "0.0.1",
+  "description": "Helps in easy binding of events to dynamic html",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apsdehal/at.js"
+  },
+  "keywords": [
+    "at",
+    "att",
+    "js",
+    "dynamic",
+    "event"
+  ],
+  "dependencies" : {
+    "jquery" : ""
+  },
+  "author": "Amanpreet Singh <me@apsdehal.in>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apsdehal/at.js/issues"
+  },
+  "homepage": "https://github.com/apsdehal/at.js"
+}
