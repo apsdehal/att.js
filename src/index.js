@@ -1,6 +1,6 @@
 /**
 *
-* This class helps to easily build up events for dynamically generated elements and will have a name 'o'
+* This class helps to easily build up events for dynamically generated elements and will have a name '@'
 *
 **/
 

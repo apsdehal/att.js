@@ -18,7 +18,11 @@
     "event"
   ],
   "dependencies" : {
-    "jquery" : ""
+    "jquery" : "",
+    "grunt": "",
+    "grunt-contrib-uglify": "",
+    "grunt-browserify": "",
+    "matchdep": ""
   },
   "author": "Amanpreet Singh <me@apsdehal.in>",
   "license": "MIT",
