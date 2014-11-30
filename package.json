@@ -1,8 +1,8 @@
 {
   "name": "att.js",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Helps in easy binding of events to dynamic html",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "grunt test"
   },

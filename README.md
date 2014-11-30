@@ -5,9 +5,9 @@ Helps in easy binding of events to dynamic elements
 ## Usage
 
 ```js
-var @ = require('att.js');
+var at = require('att.js');
 
-@('.main .main-home').click(function(event) {
+at('.main .main-home').click(function(event) {
 	console.log('yo!');
 });
 ```
