@@ -1,7 +1,9 @@
 module.exports = function ( grunt ) {
 	// Load all grunt tasks
-	require("matchdep").filter("grunt-*").forEach(grunt.loadNpmTasks);
+	// require("matchdep").filter("grunt-*").forEach(grunt.loadNpmTasks);
 	
+	grunt.loadNpmTasks('grunt-browserify');
+	grunt.loadNpmTasks('grunt-contrib-uglify');
 	// init the grunt config
 	grunt.initConfig({
 	    // Browserify the modules
@@ -15,17 +17,20 @@ module.exports = function ( grunt ) {
 				dest : "build/index_test.js"
 			}
 		},
-
-		// Add tasks for unit tests
-		karma : {
-			unit : {
-				configFile : "karma.config.js"
-			}
-		}
+	    uglify: {
+	      options: {
+	        mangle: true,
+	        compress: true,
+	        beautify: false
+	      },
+	      dist: {
+	        src: 'build/@.js',
+	        dest: 'build/@.min.js'
+	      }
+	    },
 	});
 
 	// Define dev environment tasks
-	grunt.registerTask('default',['browserify']);
+	grunt.registerTask('default',['browserify', 'uglify']);
 	// Define production environment tasks
-	grunt.registerTask('production', ['env:prod', 'browserify:index']);
 };

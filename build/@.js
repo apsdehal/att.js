@@ -9208,7 +9208,7 @@ module.exports = function(element) {
 		 * @param callback function Callback function to be called once event is successfuly triggered
 		 */	
 		click: function(callback) {	
-			$('body').on('click', element, callback);
+			$(document.body).on('click', element, callback);
 		}
 	};
 };

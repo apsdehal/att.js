@@ -6,6 +6,12 @@
   "scripts": {
     "test": "grunt test"
   },
+  "author": "Amanpreet Singh <me@apsdehal.in>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apsdehal/at.js/issues"
+  },
+  "homepage": "https://github.com/apsdehal/at.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/apsdehal/at.js"
@@ -17,19 +23,13 @@
     "dynamic",
     "event"
   ],
-  "dependencies" : {
-    "jquery" : ""
+  "dependencies": {
+    "jquery": ""
   },
   "devDependencies": {
     "grunt": "",
-    "grunt-contrib-uglify": "",
     "grunt-browserify": "",
+    "grunt-contrib-uglify": "",
     "matchdep": ""
-  },
-  "author": "Amanpreet Singh <me@apsdehal.in>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/apsdehal/at.js/issues"
-  },
-  "homepage": "https://github.com/apsdehal/at.js"
+  }
 }
