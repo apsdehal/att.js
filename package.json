@@ -18,7 +18,9 @@
     "event"
   ],
   "dependencies" : {
-    "jquery" : "",
+    "jquery" : ""
+  },
+  "devDependencies": {
     "grunt": "",
     "grunt-contrib-uglify": "",
     "grunt-browserify": "",
